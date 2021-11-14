@@ -4,13 +4,6 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-/**
- * @version 1.0
- * @className: TokenInfo
- * @description: TODO
- * @author: lxq
- * @date: 2021/11/14
- **/
 @Data
 public class TokenInfo implements Serializable
 {

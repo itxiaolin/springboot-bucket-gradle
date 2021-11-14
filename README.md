@@ -6,8 +6,11 @@
 #### 软件架构
 软件架构说明
 springboot-bucket-gradle
-    springboot-mapstruct : javaBean转化框架mapstruct的各种实践操作案例
-
+    springboot-ehcache 
+    springboot-mapstruct 
+    springboot-minio 
+    springboot-resilience 
+    springboot-webclient
 #### 安装教程
 
 1.  git clone https://github.com/itxiaolin/springboot-bucket-gradle.git

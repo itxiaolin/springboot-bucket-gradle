@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-mapstruct.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-mapstruct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-minio.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-minio.iml" />
     </modules>
   </component>
 </project>

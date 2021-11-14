@@ -1,0 +1,7 @@
+dependencies {
+    implementation(
+            "io.minio:minio:8.0.3",
+            "commons-io:commons-io:$commonsIoVersion",
+            "org.apache.commons:commons-lang3:$commonsLang3Version",
+    )
+}

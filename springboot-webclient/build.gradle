@@ -1,0 +1,10 @@
+dependencies {
+    implementation(
+            'org.springframework.boot:spring-boot-starter-webflux:2.3.4.RELEASE',
+            "org.projectlombok:lombok:$lombokVersion",
+            "com.alibaba:fastjson:$alibabaFastjsonVersion",
+    )
+    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    testCompileOnly "org.projectlombok:lombok:$lombokVersion"
+    testAnnotationProcessor "org.projectlombok:lombok:$lombokVersion"
+}

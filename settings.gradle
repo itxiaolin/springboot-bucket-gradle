@@ -1,3 +1,7 @@
 rootProject.name = 'springboot-bucket-gradle'
 include 'springboot-mapstruct'
+include 'springboot-resilience'
+include 'springboot-webclient'
+include 'springboot-ehcache'
+include 'springboot-minio'
 

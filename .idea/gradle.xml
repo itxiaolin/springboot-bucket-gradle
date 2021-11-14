@@ -10,7 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/springboot-ehcache" />
             <option value="$PROJECT_DIR$/springboot-mapstruct" />
+            <option value="$PROJECT_DIR$/springboot-minio" />
+            <option value="$PROJECT_DIR$/springboot-resilience" />
+            <option value="$PROJECT_DIR$/springboot-webclient" />
           </set>
         </option>
       </GradleProjectSettings>

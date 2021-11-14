@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springboot-bucket-gradle
+    username: root
+    password: 123456
+#加载ehcache配置文件
+  cache:
+    type: ehcache
+    ehcache:
+      config: classpath:ehcache.xml
+
+logging:
+  config: classpath:log4j2.xml
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+

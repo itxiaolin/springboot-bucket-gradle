@@ -1,0 +1,13 @@
+dependencies {
+    implementation(
+            "io.github.resilience4j:resilience4j-spring-boot2:1.7.1",
+            "io.vavr:vavr-jackson:0.9.1",
+            "org.projectlombok:lombok:$lombokVersion",
+            "com.alibaba:fastjson:$alibabaFastjsonVersion",
+            "commons-io:commons-io:$commonsIoVersion",
+            "org.apache.commons:commons-lang3:$commonsLang3Version",
+    )
+    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    testCompileOnly "org.projectlombok:lombok:$lombokVersion"
+    testAnnotationProcessor "org.projectlombok:lombok:$lombokVersion"
+}

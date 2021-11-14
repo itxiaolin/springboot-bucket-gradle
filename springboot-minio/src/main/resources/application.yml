@@ -1,0 +1,10 @@
+# Minio配置
+minio:
+  url: http://ip:9000
+  accessKey: accessKey
+  secretKey: secretKey
+  bucketName: bucketName
+logging:
+  config: classpath:log4j2.xml
+
+
