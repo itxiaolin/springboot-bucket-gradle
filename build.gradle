@@ -1,0 +1,113 @@
+buildscript {
+    ext {
+        springBootVersion = '2.3.4.RELEASE'
+    }
+    repositories {
+        mavenLocal()
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath "io.spring.gradle:dependency-management-plugin:1.0.9.RELEASE"
+    }
+}
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven'
+    apply plugin: 'idea'
+    apply plugin: 'io.spring.dependency-management'
+    apply plugin: 'org.springframework.boot'
+    group = 'com.itxiaolin'
+    version = '1.0-SNAPSHOT'
+    // 指定JDK版本
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+    // 指定编码格式
+    [compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+    sourceSets.main.resources.srcDirs = ["src/main/java","src/main/resources"]
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    repositories {
+        mavenLocal()
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        maven { url "https://plugins.gradle.org/m2/"}
+        mavenCentral()
+    }
+    dependencyManagement {
+        imports {
+            mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Hoxton.SR8'
+            mavenBom "com.alibaba.cloud:spring-cloud-alibaba-dependencies:2.2.3.RELEASE"
+            mavenBom "org.springframework.boot:spring-boot-dependencies:${springBootVersion}"
+        }
+    }
+    ext {
+        //依赖版本
+        springCloudVersion="Hoxton.SR8"
+        springCloudAlibabaVersion="2.2.3.RELEASE"
+        springBootVersion = "2.3.4.RELEASE"
+        //mybatis-plus
+        mybatisPlusVersion="3.3.2"
+        velocityVersion="1.7"
+        mybatisTypehandlersJsr310Version="1.0.2"
+        alibabaDruidVersion="1.2.2"//阿里
+        alibabaFastjsonVersion="1.2.75"
+        commonsIoVersion="2.8.0" //io常用工具类
+        commonsLang3Version="3.11"
+        poiVersion="4.1.2"// excel工具
+        jjwtVersion="0.9.1"//Token生成与解析
+        kaptchaVersion="2.3.2"//验证码
+        oshiCoreVersion="5.3.6" //获取系统信息
+        jnaVersion="5.6.0"
+        UserAgentUtilsVersion="1.21"
+        lombokVersion="1.18.12" //lombok
+        mapStructVersion="1.4.2.Final"//mapStruct
+        ehcacheVersion="2.10.6"// ehcache
+        guavaVersion="25.0-jre"// guava
+        minioVersion="8.0.3" //minio
+        tobatoVersion="1.26.5" //tobato
+        //swagger-ui
+        knife4jVersion="2.0.4"
+        swaggerFoxVersion="2.9.2"
+        swaggerCoreVersion="1.5.24"
+        springBootAdminVersion="2.3.0"
+
+        //支付相关
+        alipaySdkVersion="3.7.73.ALL"
+        wxpaySdkVersion="3.0.10"
+        weixinJavaPayVersion="3.4.0"
+        rocketmqVersion="2.0.2"
+
+        //二维码生成&识别组件
+        zxingCoreVersion="3.3.3"
+        zxingJavaseVersion="3.3.3"
+
+    }
+    dependencies {
+        implementation(
+                "org.springframework.boot:spring-boot-starter-aop",
+                "org.springframework.boot:spring-boot-starter-web",
+                "org.springframework.boot:spring-boot-starter-log4j2",
+                "org.springframework.boot:spring-boot-starter-test",
+        )
+        annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+    }
+    configurations {
+        // 所有需要忽略的包定义在此
+        providedRuntime
+        all*.exclude module: 'spring-boot-starter-logging'
+        all*.exclude module: 'logback-classic'
+        all*.exclude module: 'log4j-over-slf4j'
+        all*.exclude module: 'slf4j-log4j12'
+        developmentOnly
+        runtimeClasspath {
+            extendsFrom developmentOnly
+        }
+        compileOnly {
+            extendsFrom annotationProcessor
+        }
+    }
+}

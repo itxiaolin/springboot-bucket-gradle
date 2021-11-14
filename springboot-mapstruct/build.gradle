@@ -1,0 +1,17 @@
+dependencies {
+    implementation(
+            "org.projectlombok:lombok:$lombokVersion",
+            "org.mapstruct:mapstruct:$mapStructVersion",
+    )
+    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    testCompileOnly "org.projectlombok:lombok:$lombokVersion"
+    testAnnotationProcessor "org.projectlombok:lombok:$lombokVersion"
+    annotationProcessor "org.mapstruct:mapstruct-processor:$mapStructVersion"
+    testAnnotationProcessor"org.mapstruct:mapstruct-processor:$mapStructVersion"
+}
+compileJava {
+    options.compilerArgs = [
+            '-Amapstruct.suppressGeneratorTimestamp=true',
+            '-Amapstruct.suppressGeneratorVersionInfoComment=true'
+    ]
+}
