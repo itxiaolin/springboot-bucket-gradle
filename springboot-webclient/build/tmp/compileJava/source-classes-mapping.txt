@@ -1,0 +1,16 @@
+com/itxiaolin/webclient/controller/GetController.java
+ com.itxiaolin.webclient.controller.GetController
+com/itxiaolin/webclient/controller/providerController.java
+ com.itxiaolin.webclient.controller.providerController
+com/itxiaolin/webclient/config/WebClientConfig.java
+ com.itxiaolin.webclient.config.WebClientConfig
+com/itxiaolin/webclient/model/LoginParam.java
+ com.itxiaolin.webclient.model.LoginParam
+com/itxiaolin/webclient/WebClientApplication.java
+ com.itxiaolin.webclient.WebClientApplication
+com/itxiaolin/webclient/config/properties/HttpClientProperties.java
+ com.itxiaolin.webclient.config.properties.HttpClientProperties
+com/itxiaolin/webclient/controller/PostController.java
+ com.itxiaolin.webclient.controller.PostController
+com/itxiaolin/webclient/controller/ExchangeController.java
+ com.itxiaolin.webclient.controller.ExchangeController
