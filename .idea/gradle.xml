@@ -13,6 +13,13 @@
             <option value="$PROJECT_DIR$/springboot-ehcache" />
             <option value="$PROJECT_DIR$/springboot-mapstruct" />
             <option value="$PROJECT_DIR$/springboot-minio" />
+            <option value="$PROJECT_DIR$/springboot-netty" />
+            <option value="$PROJECT_DIR$/springboot-netty/rpc-consumer" />
+            <option value="$PROJECT_DIR$/springboot-netty/rpc-core" />
+            <option value="$PROJECT_DIR$/springboot-netty/rpc-protocol" />
+            <option value="$PROJECT_DIR$/springboot-netty/rpc-provider" />
+            <option value="$PROJECT_DIR$/springboot-netty/rpc-registry" />
+            <option value="$PROJECT_DIR$/springboot-openFeign" />
             <option value="$PROJECT_DIR$/springboot-resilience" />
             <option value="$PROJECT_DIR$/springboot-webclient" />
           </set>

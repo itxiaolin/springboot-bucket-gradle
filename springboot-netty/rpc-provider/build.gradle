@@ -1,0 +1,7 @@
+dependencies {
+    implementation(
+            "io.netty:netty-all",
+            "org.projectlombok:lombok:$lombokVersion",
+            project(':springboot-netty:rpc-core'),
+    )
+}

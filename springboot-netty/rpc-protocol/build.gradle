@@ -1,0 +1,8 @@
+dependencies {
+    implementation(
+            "io.netty:netty-all",
+            "com.caucho:hessian:4.0.65",
+            "org.projectlombok:lombok:$lombokVersion",
+            project(':springboot-netty:rpc-core'),
+    )
+}

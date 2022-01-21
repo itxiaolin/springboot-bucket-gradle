@@ -1,0 +1,10 @@
+dependencies {
+    implementation(
+            "io.netty:netty-all",
+            "org.apache.curator:curator-framework:2.12.0",
+            "org.apache.curator:curator-recipes:2.12.0",
+            "org.apache.curator:curator-x-discovery:2.12.0",
+            "org.projectlombok:lombok:$lombokVersion",
+            project(':springboot-netty:rpc-core'),
+    )
+}

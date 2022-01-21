@@ -5,56 +5,64 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.4.RELEASE/b0ff01c3e647564fe2bd6ad470832fc700464e63/spring-boot-configuration-processor-2.3.4.RELEASE.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.4.RELEASE/b0ff01c3e647564fe2bd6ad470832fc700464e63/spring-boot-configuration-processor-2.3.4.RELEASE.jar" />
         </processorPath>
+        <module name="springboot-bucket-gradle.springboot-netty.rpc-provider.main" />
+        <module name="springboot-bucket-gradle.springboot-netty.rpc-protocol.main" />
+        <module name="springboot-bucket-gradle.springboot-netty.rpc-core.main" />
+        <module name="springboot-bucket-gradle.springboot-netty.main" />
+        <module name="springboot-bucket-gradle.springboot-netty.rpc-consumer.main" />
         <module name="springboot-bucket-gradle.main" />
         <module name="springboot-bucket-gradle.springboot-minio.main" />
+        <module name="springboot-bucket-gradle.springboot-netty.rpc-registry.main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.4.2.Final/e55bd90d51cddd638c07d5bd89fc7535d4e3d069/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.4.2.Final/e55bd90d51cddd638c07d5bd89fc7535d4e3d069/mapstruct-processor-1.4.2.Final.jar" />
         </processorPath>
         <module name="springboot-bucket-gradle.springboot-mapstruct.test" />
         <module name="springboot-bucket-gradle.springboot-ehcache.test" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.4.RELEASE/b0ff01c3e647564fe2bd6ad470832fc700464e63/spring-boot-configuration-processor-2.3.4.RELEASE.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.4.2.Final/e55bd90d51cddd638c07d5bd89fc7535d4e3d069/mapstruct-processor-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="springboot-bucket-gradle.springboot-ehcache.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
         <option name="mapstruct.suppressGeneratorTimestamp" value="true" />
         <option name="mapstruct.suppressGeneratorVersionInfoComment" value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.4.RELEASE/b0ff01c3e647564fe2bd6ad470832fc700464e63/spring-boot-configuration-processor-2.3.4.RELEASE.jar" />
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.4.2.Final/e55bd90d51cddd638c07d5bd89fc7535d4e3d069/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.4.RELEASE/b0ff01c3e647564fe2bd6ad470832fc700464e63/spring-boot-configuration-processor-2.3.4.RELEASE.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.4.2.Final/e55bd90d51cddd638c07d5bd89fc7535d4e3d069/mapstruct-processor-1.4.2.Final.jar" />
         </processorPath>
         <module name="springboot-bucket-gradle.springboot-mapstruct.main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
         </processorPath>
         <module name="springboot-bucket-gradle.springboot-resilience.test" />
         <module name="springboot-bucket-gradle.springboot-webclient.test" />
+        <module name="springboot-bucket-gradle.springboot-openFeign.test" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.4.RELEASE/b0ff01c3e647564fe2bd6ad470832fc700464e63/spring-boot-configuration-processor-2.3.4.RELEASE.jar" />
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.4.RELEASE/b0ff01c3e647564fe2bd6ad470832fc700464e63/spring-boot-configuration-processor-2.3.4.RELEASE.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
         </processorPath>
         <module name="springboot-bucket-gradle.springboot-webclient.main" />
         <module name="springboot-bucket-gradle.springboot-resilience.main" />
-      </profile>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.4.RELEASE/b0ff01c3e647564fe2bd6ad470832fc700464e63/spring-boot-configuration-processor-2.3.4.RELEASE.jar" />
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
-          <entry name="$PROJECT_DIR$/../../../DevelopConfig/gradle-6.7/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.4.2.Final/e55bd90d51cddd638c07d5bd89fc7535d4e3d069/mapstruct-processor-1.4.2.Final.jar" />
-        </processorPath>
-        <module name="springboot-bucket-gradle.springboot-ehcache.main" />
+        <module name="springboot-bucket-gradle.springboot-openFeign.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8" />
